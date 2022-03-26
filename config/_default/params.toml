@@ -1,0 +1,82 @@
+# Meta Data for SEO
+
+## Homepage
+title = 'Octorun'
+titleSeparator = '-'
+titleAddition = 'Operates Github self-hosted runner on Kubernetes cluster.'
+description = 'Octorun is a Kubernetes Custom Controller to operates Github self-hosted runner. It brings declarative, Kubernetes-style APIs to runner creation, configuration and management.'
+
+## Open Graph
+ogLocale = 'en_US'
+domainTLD = 'octorun.github.io'
+titleHome = 'Octorun'
+
+## Twitter Cards
+twitterCreator = '@ahmadnurus'
+
+## JSON-LD
+schemaType = 'Organization'
+schemaName = 'Octorun'
+schemaAuthor = 'Ahmad Nurus S.'
+schemaAuthorTwitter = 'https://twitter.com/ahmadnurus'
+schemaAuthorLinkedIn = 'https://www.linkedin.com/in/ahmadnurus/'
+schemaAuthorGitHub = 'https://github.com/prksu'
+schemaLocale = 'en-US'
+schemaLogoWidth = 512
+schemaLogoHeight = 512
+schemaImageWidth = 1280
+schemaImageHeight = 640
+schemaLinkedIn = ''
+schemaGitHub = 'https://github.com/octorun/octorun'
+schemaSection = 'blog'
+
+## Sitelinks Search Box
+siteLinksSearchBox = false
+
+## Chrome Browser
+themeColor = '#fff'
+
+# Images
+quality = 85
+bgColor = '#fff'
+landscapePhotoWidths = [900, 800, 700, 600, 500]
+portraitPhotoWidths = [800, 700, 600, 500]
+lqipWidth = '20x'
+smallLimit = '300'
+
+# Footer
+footer = "Powered by <a class=\"text-muted\" href=\"https://pages.github.com/\">GitHub Pages</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
+
+# Feed
+copyRight = "Copyright (c) 2022 The Authors"
+
+# Alert
+alert = false
+alertDismissable = true
+alertText = 'Introducing the Octorun'
+
+# Edit Page
+repoHost = 'GitHub'
+docsRepo = 'https://github.com/octorun/octorun'
+docsRepoBranch = 'main'
+docsRepoSubPath = 'docs'
+editPage = false
+lastMod = false
+
+[options]
+  lazySizes = true
+  clipBoard = true
+  instantPage = true
+  flexSearch = false
+  darkMode = true
+  bootStrapJs = true
+  breadCrumb = true
+  highLight = true
+  multilingualMode = false
+  docsVersioning = false
+  fullWidth = false
+
+[menu]
+  [menu.section]
+    auto = false
+    collapsibleSidebar = false

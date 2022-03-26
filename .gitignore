@@ -17,6 +17,13 @@ hugo.linux
 # Temporary lock file while building
 /.hugo_build.lock
 
+### Content ###
+/content/**/*.md
+!/content/**/_index.md
+
+### Static ###
+/static/docs/*
+
 ### Node ###
 # Logs
 logs
