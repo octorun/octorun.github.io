@@ -3,7 +3,7 @@
 set -xe
 
 printf "Ensuring octorun submodule up to date. \n"
-git submodule update --init --recursive
+git submodule update --init --recursive --remote --rebase
 
 printf "Synchronizing content. \n"
 for FILE in $(find octorun/docs -name '*.md'); do 
