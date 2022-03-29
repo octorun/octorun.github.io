@@ -14,16 +14,16 @@
   weight = 30
 
 [[docs]]
-  name = "Concepts"
-  weight = 10
-  identifier = "concepts"
-  url = "/docs/concepts/"
-
-[[docs]]
   name = "Getting Started"
-  weight = 20
+  weight = 10
   identifier = "getting-started"
   url = "/docs/getting-started/"
+
+[[docs]]
+  name = "Concepts"
+  weight = 20
+  identifier = "concepts"
+  url = "/docs/concepts/"
 
 [[docs]]
   name = "Tasks"
