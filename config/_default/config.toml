@@ -42,7 +42,6 @@ rssLimit = 10
   noUgly = true
   rel = "sitemap"
 
-
 [caches]
   [caches.getjson]
     dir = ':cacheDir/:project'
